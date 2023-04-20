@@ -29,7 +29,7 @@ const MainTodo = () => {
     addNewTodoToCloud()
     inputRef.current.value = "";
     inputRef.current.focus()
-    setNewTodo("") // need to clear newTodo 
+    // setNewTodo("") // need to clear newTodo 
   }
 
   const deleteTodo = async(id)=>{
